@@ -1,5 +1,7 @@
 package br.edu.ifrn.sabetodo;
 
+import static br.edu.ifrn.sabetodo.R.id.recyclerView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -38,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
     public void carregarTarefas() {
 
         List<Tarefa> listaTarefas = Arrays.asList
-                (new Tarefa(1, "Pedir Informacion Personal"),
-                        new Tarefa(2, "Presentear su Familia"),
-                        new Tarefa(3, "Viajar"),
-                        new Tarefa(4, "Compras")
+                (new Tarefa(1, "Pedir Informacion Personal", 0, 1),
+                        new Tarefa(2, "Presentear su Familia", 0, 2),
+                        new Tarefa(3, "Viajar", 0, 3),
+                        new Tarefa(4, "Compras", 3, 0)
                 );
         tarefasAdapter = new TarefasAdapter(listaTarefas, MainActivity.this );
         recyclerView.setAdapter(tarefasAdapter);

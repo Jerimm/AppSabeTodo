@@ -37,7 +37,7 @@ public class TarefasAdapter extends RecyclerView.Adapter<TarefaHolder>{
 
         Tarefa tarefa = listaTarefas.get(position);
 
-        holder.getTvTitulo().setText(tarefa.getTexto());
+        holder.getTvTitulo().setText(tarefa.getNome());
 
     }
 

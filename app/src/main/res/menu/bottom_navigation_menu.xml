@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_estudo"
+        android:icon="@drawable/livros"
+        android:title="@string/menu_estudos"/>
+    <item
+        android:id="@+id/menu_roleta"
+        android:icon="@drawable/roletinha"
+        android:title="@string/menu_roleta"/>
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@drawable/user"
+        android:title="@string/menu_roleta"/>
+    <item
+        android:id="@+id/menu_ranking"
+        android:icon="@drawable/ranking"
+        android:title="@string/menu_ranking"/>
+
+
+</menu>
