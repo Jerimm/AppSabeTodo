@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AppSabeTodo</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="menu_estudos">Estudios</string>
+    <string name="menu_roleta">Ruleta</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_ranking">clasificación</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
